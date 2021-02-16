@@ -1,0 +1,64 @@
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+.idea/*
+
+# avoid uploading your wpa keys and personal adjustments
+firmware_mod/config/wpa_supplicant.conf
+firmware_mod/System Volume Information/IndexerVolumeGuid
+firmware_mod/System Volume Information/WPSettings.dat
+firmware_mod/config/motion.conf
+firmware_mod/config/mqtt.conf
+firmware_mod/config/telegram.conf
+firmware_mod/config/sendmail.conf
+firmware_mod/config/rtspserver.conf
+firmware_mod/config/ntp_srv.conf
+firmware_mod/config/lighttpd.user
+firmware_mod/config/lighttpd.pem
+firmware_mod/config/userscripts/motiondetection/*
+!firmware_mod/config/userscripts/motiondetection/*.dist
+firmware_mod/config/userscripts/startup/*
+!firmware_mod/config/userscripts/startup/*.dist
+firmware_mod/root/.ssh/*
